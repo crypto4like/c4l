@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/crypto4like_bg.qm</file>
+        <file alias="ca">locale/crypto4like_ca.qm</file>
+        <file alias="cs">locale/crypto4like_cs.qm</file>
+        <file alias="da">locale/crypto4like_da.qm</file>
+        <file alias="de">locale/crypto4like_de.qm</file>
+        <file alias="en">locale/crypto4like_en.qm</file>
+        <file alias="en_US">locale/crypto4like_en_US.qm</file>
+        <file alias="es">locale/crypto4like_es.qm</file>
+        <file alias="fi">locale/crypto4like_fi.qm</file>
+        <file alias="fr_FR">locale/crypto4like_fr_FR.qm</file>
+        <file alias="hr">locale/crypto4like_hr.qm</file>
+        <file alias="it">locale/crypto4like_it.qm</file>
+        <file alias="ja">locale/crypto4like_ja.qm</file>
+        <file alias="ko_KR">locale/crypto4like_ko_KR.qm</file>
+        <file alias="nl">locale/crypto4like_nl.qm</file>
+        <file alias="pl">locale/crypto4like_pl.qm</file>
+        <file alias="pt">locale/crypto4like_pt.qm</file>
+        <file alias="pt_BR">locale/crypto4like_pt_BR.qm</file>
+        <file alias="ro_RO">locale/crypto4like_ro_RO.qm</file>
+        <file alias="ru">locale/crypto4like_ru.qm</file>
+        <file alias="sk">locale/crypto4like_sk.qm</file>
+        <file alias="sv">locale/crypto4like_sv.qm</file>
+        <file alias="tr">locale/crypto4like_tr.qm</file>
+        <file alias="uk">locale/crypto4like_uk.qm</file>
+        <file alias="zh_CN">locale/crypto4like_zh_CN.qm</file>
+        <file alias="zh_TW">locale/crypto4like_zh_TW.qm</file>
+    </qresource>
+</RCC>

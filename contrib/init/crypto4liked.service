@@ -1,0 +1,26 @@
+[Unit]
+Description=Crypto4Like's distributed currency daemon
+After=network.target
+
+[Service]
+User=crypto4like
+Group=crypto4like
+
+Type=forking
+PIDFile=/var/lib/crypto4liked/crypto4liked.pid
+
+ExecStart=/usr/bin/crypto4liked -daemon -pid=/var/lib/crypto4liked/crypto4liked.pid \
+          -conf=/etc/crypto4like/crypto4like.conf -datadir=/var/lib/crypto4liked
+
+ExecStop=-/usr/bin/crypto4like-cli -conf=/etc/crypto4like/crypto4like.conf \
+         -datadir=/var/lib/crypto4liked stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

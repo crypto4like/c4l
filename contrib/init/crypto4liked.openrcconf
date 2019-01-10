@@ -1,0 +1,26 @@
+# /etc/conf.d/crypto4liked: config file for /etc/init.d/crypto4liked
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/crypto4like/crypto4like.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/crypto4liked"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/crypto4liked.pid"
+
+# Where to write crypto4liked data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/crypto4liked"
+
+# User and group to own crypto4liked process
+#BITCOIND_USER="crypto4like"
+#BITCOIND_GROUP="crypto4like"
+
+# Path to crypto4liked executable
+#BITCOIND_BIN="/usr/bin/crypto4liked"
+
+# Nice value to run crypto4liked under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Crypto4Like
+Comment=Crypto4Like P2P Cryptocurrency
+Comment[fr]=Crypto4Like, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Crypto4Like, eşten eşe kriptografik sanal para birimi
+Exec=crypto4like-qt %u
+Terminal=false
+Type=Application
+Icon=crypto4like128
+MimeType=x-scheme-handler/crypto4like;
+Categories=Office;Finance;

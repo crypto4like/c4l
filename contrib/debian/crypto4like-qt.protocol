@@ -1,0 +1,11 @@
+[Protocol]
+exec=crypto4like-qt '%u'
+protocol=crypto4like
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
